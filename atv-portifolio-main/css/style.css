@@ -26,7 +26,9 @@ text-decoration: none;
 color: #21243d;
 
 }
-
+main {
+      margin: 0 20vw 0 20vw;
+}
    /*+============
       formatação da página
 =============*/
@@ -49,12 +51,10 @@ header nav ul li.atual a{
       color: #ff6464;
 }
 /*=============
-formatação do conteúdo
+formatação do works
 =============*/
 
-main.works {
-      margin: 0 30vw 0 30vw;
-}
+
 main.works h1 {
       font-weight: normal;
       margin: 0 0 2vw 0;    /* Margin serve para o espaçamento com oque ta fora*/
@@ -76,6 +76,48 @@ main.works section p span {
       padding: 2px 7px 2px 7px; /* padding serve para o espaçamento com oque esta dentro*/
       font-weight: bold;
 }
+/*=============
+formatação home page
+=============*/
+section.banner{
+      display: flex;
+      margin: 8vw 0vw 3vw 0vw;
+}
+section.banner h1{
+      font-size: 2rem;
+}
+section.banner p{
+      margin: 2vw 0vw 2vw 0vw;
+}
+section.banner button{
+      color: white;
+      background-color: red;
+      padding: 0.5vw ;
+      border: none;
+}
+section.rt-post{
+      background-color: #e7eaeb;
+      padding: 2vw 5vw 2vw 5vw
+}
+section.rt-post h2{
+      font-weight: normal;
+      margin: 0 0 2vw 0;
+}
+section.rt-post ul{
+      display: flex;
+}
+section.rt-post ul li{
+      background-color: white;
+      padding: 1vw;
+      margin: 0vw 3vw 0vw;
+}
+section.rt.rt-post ul li:last-child{
+      margin: 0;
+}
+section.rt.post ul li p{
+      margin: 1.5vw 0 1.5vw 0;
+}
+
 /*=============
 formatação de rodapé
 =============*/
