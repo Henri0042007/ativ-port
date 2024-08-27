@@ -135,8 +135,11 @@ section.ft-work div p span{
       border-radius: 35px;
       padding: 1px 10px 1px 10px;
       font-weight: bold
-
 }
+section.ft-work div p.henri{
+      color: #8695A4;
+}
+
 
 /*=============
 formatação de rodapé
