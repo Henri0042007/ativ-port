@@ -117,6 +117,26 @@ section.rt.rt-post ul li:last-child{
 section.rt.post ul li p{
       margin: 1.5vw 0 1.5vw 0;
 }
+section.ft-work h2{
+      font-size: 2rem;
+      font-weight: normal;
+      margin: 2vw 0vw 2vw 3vw;
+}
+section.ft-work >div{
+      display: flex;
+      margin: 2vw 0vw 2vw 3vw;
+}
+section.ft-work div h3{
+      margin: 2vw 0vw 2vw 0vw;
+} 
+section.ft-work div p span{
+      color: white;
+      background-color: #142850;
+      border-radius: 35px;
+      padding: 1px 10px 1px 10px;
+      font-weight: bold
+
+}
 
 /*=============
 formatação de rodapé
